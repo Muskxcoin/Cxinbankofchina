@@ -1,0 +1,33 @@
+# 🇨🇳 Cxcoinbankofchina
+
+**Cxcoinbankofchina** is a modern, responsive online banking platform inspired by the Bank of China. Built with a clean red-and-white UI, it offers secure login, multilingual support, a dashboard, and transaction management — all deployable via Vercel and powered by NeonDB.
+
+---
+
+## 🌐 Live Demo
+
+🔗 [Visit the app](https://xinbankofchina.vercel.app)
+
+---
+
+## 🚀 Features
+
+- 🔐 **Secure Authentication**
+  - Register/Login with validation
+  - Email login supported
+- 💼 **User Dashboard**
+  - View balances, account summaries
+- 💸 **Transactions**
+  - Send, receive, and log transactions
+- 🌍 **Translation Support**
+  - i18n-ready (English / Chinese)
+- 🎨 **Themed UI**
+  - Red and white color scheme
+- ☁️ **Vercel-Ready Deployment**
+- 🧩 **Backend:**
+  - Node.js + Express
+  - Prisma ORM + NeonDB
+
+---
+
+## 📁 Folder Structure
