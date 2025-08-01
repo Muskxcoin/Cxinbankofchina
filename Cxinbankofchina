@@ -1,0 +1,28 @@
+https://xinbankofchina-frontend.vercel.app
+https://xinbankofchina-frontend.vercel.app✅ Project successfully deployed to:
+
+Frontend: https://xinbankofchina.vercel.app  
+Backend:  https://xinbankofchina.vercel.app/apiPOST https://xinbankofchina-api.vercel.app/api/login
+{
+  "email": "admin@xinbank.com",
+  "password": "admin@@@123"
+}
+Content-Type: application/json
+GET https://<your-api-url>.vercel.app/api/admin/users
+[
+  {
+    "id": "user_123",
+    "username": "@QiupingCH00012",
+    "email": "pei@example.com"
+  },
+  ...
+]
+curl http://localhost:3000/api/admin/users \
+  -H "Authorization: Bearer <admin_token_here>"
+http://localhost:3000/api/admin/users
+Username: @QiupingCH00012
+Password: PeiQiuping@@@$$$1
+app.get("/api/users/me", authenticateToken, async (req, res) => {
+  const user = await prisma.user.findUnique({ where: { id: req.user.id } });
+  res.json(user);
+});
